@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Lista Pracowników</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="table.js" async></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body>
+   
+    <p><br/></p>
+        <div class="container">
+        <div class="header"><img src="img/icon - pracownicy.svg"/><p>Lista Pracowników</p></div>
+        
+        <table id="tblSort" id="tablepaging" class="order-table table">
+            <thead>
+            <tr>
+                <th onclick="sortTable(0)"><h2>ID<img src="img/bg.gif"/></h2></th>
+                <th onclick="sortTable(1)"><h2>First Name<img src="img/bg.gif"/></h2></th>
+                <th onclick="sortTable(2)"><h2>Last Name<img src="img/bg.gif"/></h2></th>
+                <th onclick="sortTable(3)"><h2>Birth Date<img src="img/bg.gif"/></h2></th>
+                <th onclick="sortTable(4)"><h2>Company<img src="img/bg.gif"/></h2></th>
+                <th onclick="sortTable(5)"><h2>Note<img src="img/bg.gif"/></h2></th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+       
+        </table>
+        <script src="tabel.js"></script>
+        
+    </div>
+  </div>
+  <div id="pageNavPosition">
+    </div>
+    <script src="pagination.js"></script>
+   
+    <script src="table-sort.js"></script>
+    
+   
+   
+    <footer>
+        <div class="footer-logo">
+            <img src="img/chilid-logo.svg" alt="Chilid's Logo" class="chilid-logo"/>
+        </div>
+    </footer>
+</body>
+</html>

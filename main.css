@@ -1,0 +1,83 @@
+
+
+html {
+    box-shadow: inset 0 0 900px rgba(0,0,0,0.5);
+      min-height: 100%;
+      background: #3484F5;
+      background: linear-gradient(to bottom,  #3484F5 0%,rgb(95, 157, 243) 92%);
+      font-family: 'Open Sans', sans-serif;
+      
+  }
+
+
+.header
+{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -0.89px;
+    color: #ffffff;
+}
+
+table
+{
+    border: 1px solid rgb(196, 217, 247);
+    border-radius: 5px;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+thead
+{
+    border: 1px solid rgb(196, 217, 247);
+    border-radius: 5px;
+    background-color: rgb(196, 217, 247);
+    height: 56px;
+    color: #3A5071;
+    font-size: 14px;    
+}
+tr > td
+{
+
+    width: 800px;
+    height: 55px;
+    background-color: #ffffff
+}
+
+.footer-logo
+{
+    text-align: center;
+    margin-top: 40px;
+}
+#pageNavPosition
+{
+    margin-top: 20px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.chilid-logo
+{
+    width: 57.6px;
+    height: 22px;
+    fill: #ffffff;
+}
+
+.pg-normal { 
+    color: #000000; 
+    font-size: 15px; 
+    cursor: pointer; 
+    background: #3A5071; 
+    padding: 2px 4px 2px 4px; 
+    }
+    
+    .pg-selected { 
+    color: #fff; 
+    font-size: 15px; 
+    background: #000000; 
+    padding: 2px 4px 2px 4px; 
+    }
+    
+    
